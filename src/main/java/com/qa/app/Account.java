@@ -1,7 +1,12 @@
 package com.qa.app;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Account {
-		
+	
+	@Id
 	private int id;
 	private String firstName;
 	private String lastName;
