@@ -14,5 +14,12 @@ public class AccountRepositoryMap implements AccountRepository {
 		return map.get(id);
 	}
 	
+	public Account updateFirstName(int id, String newFirstName) {
+		return null;
+	}
+	
+	public void remove(int id) {
+		
+	}
 
 }
